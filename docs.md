@@ -1,0 +1,3 @@
+Solved problems:
+- To put a background image inline use bg-[url(*path*)]. Make sure that the syntax is COMPLETE by typing out the pairs of charecters as you go. ALSO a relative path image needs to be typed out as if its from inside the dist file because thats how the css file will be served. 
+- To use your own font you'll need to go inside the tailwind confic and the end property. Make a fontFamily property and name it and add the names of the fonts you imported. To refer to it in the file use `font-` and then the name you gave to it.

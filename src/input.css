@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== FONTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Eczar:wght@500&display=swap');
+
+#hero{
+    background: linear-gradient(rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)), url(../images/hero.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
