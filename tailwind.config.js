@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         "main": ['Asap', "sans-serif"],
-        "decor": ['Eczar', "serif"]
+        "decor": ['IM Fell English SC', "serif"]
       },
       backgroundImage: {
         "hero": "url('./images/hero.avif')"
