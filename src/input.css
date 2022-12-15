@@ -32,6 +32,10 @@ nav{
     box-shadow: 0 0 80px 45px black;
 }
 
+.sec1 div{
+    backdrop-filter: opacity(.5);
+}
+
 @media screen and (max-width: 768px){
     #hero{
         background-position: center;
