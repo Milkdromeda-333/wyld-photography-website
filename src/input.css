@@ -36,6 +36,21 @@ nav{
     backdrop-filter: opacity(.5);
 }
 
+.widescreen-nav a{position: relative;}
+.widescreen-nav a::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: white;
+    width: 0;
+    transition: all 300ms;
+}
+.widescreen-nav a:hover::before{
+width: 100%;
+}
+
 @media screen and (max-width: 768px){
     #hero{
         background-position: center;
