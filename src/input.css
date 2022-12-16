@@ -2,12 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ===== FONTS ===== */
-@import url('https://fonts.googleapis.com/css2?family=Asap&family=Eczar:wght@500&display=swap');
-
 #hero{
     background: linear-gradient(rgba(0, 0, 0, 0.3),
     rgba(0, 0, 0, 0.3)), url(../images/hero.avif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center 50%;
+}
+
+.toggle-btn{
+    position: absolute;
+    top: .75rem;
+    right: .75rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-btn .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+nav{
+    box-shadow: 0 0 80px 45px black;
+}
+
+.sec1 div{
+    backdrop-filter: opacity(.5);
+}
+
+@media screen and (max-width: 768px){
+    #hero{
+        background-position: center;
+    }
+
+    .toggle-btn{
+        display: flex;
+    }
+
+    nav{
+        z-index: 1;
+        transition: none;
+    }
+
+    nav:has(+ .nav.active){
+        box-shadow: none;
+        transition: box-shadow 1.4s;
+    }
+
+    .nav{
+        top: -100%;
+        transition: 300ms ease-out;
+    }
+
+    .nav.active{
+        top: 8%;
+        z-index: 0;
+    }
 }
