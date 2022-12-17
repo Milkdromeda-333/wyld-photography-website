@@ -8,11 +8,6 @@ Solved problems:
 
 - Tailwind stopped working so I uninstalled and reinstalled and ran "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch" again. Accidentally ran `-full` when I re-installed.
 
-
-Navbar:
-
-
-
 Standing questions and problems:
 
 Q: Is it normal to have to refresh my page for my tailwind to take effect after each change?
