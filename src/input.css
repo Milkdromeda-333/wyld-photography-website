@@ -68,8 +68,10 @@ width: 100%;
     background-size: cover;
 }
 
+/* SEC 2 */
+
 .sec2{
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/sec2-mount-bormo.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/sec2-mount-bormo.jpg');
     background-position: center;
     background-size: cover;
 }

@@ -1,6 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./index.html"],
+  content: {
+    relative: true,
+    files: [
+      "./index.html",
+      "./src/input.css",
+      "./src/index.js"
+    ]
+  },
   theme: {
     extend: {
       fontFamily: {
