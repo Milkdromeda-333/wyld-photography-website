@@ -66,7 +66,7 @@
 
         <!-- Intro paragraph -->
         <div class="p-10">
-            <h1 class="font-decor text-3xl mb-4 md:text-5xl">Explore The World</h1>
+            <h2 class="font-decor text-2xl mb-4 md:text-5xl">Explore The World</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid quis enim accusamus animi rem
                 repudiandae!</p>
         </div>
@@ -114,12 +114,12 @@
         </section>
 
         <!-- ===== SEC 2: FULL WIDTH IMG ===== -->
-        <section class="w-full h-[120vh] px-[2rem] pb-14 flex flex-col justify-end sec2">
-            <p class="text-4xl font-bold font-decor max-w-screen-md mx-auto my-0 md:text-6xl">100 Years as the wildlife
+        <section class="w-full h-[90vh] px-[2rem] pb-14 flex flex-col justify-end sec2">
+            <h2 class="text-2xl font-bold font-decor max-w-screen-md mx-auto my-0 md:text-6xl">100 Years as the wildlife
                 photography
                 company of the
                 year.
-            </p>
+            </h2>
             <p class="mx-auto my-0 md:max-w-screen-md">Corpus callosum venture the only home we've ever known culture
                 across the
                 centuries from
@@ -131,7 +131,7 @@
 
         <!-- SEC3 -->
         <section class="mx-auto my-14 py-14 px-4 ">
-            <h2 class="text-4xl font-bold font-decor max-w-screen-md mx-auto md:text-6xl">Inconspicuous motes of
+            <h2 class="text-2xl font-bold font-decor max-w-screen-md mx-auto md:text-6xl">Inconspicuous motes of
                 rock wins photo of the year.</h2>
             <p class="mx-auto my-0 md:max-w-screen-md">Cambrian explosion with pretty stories for which there's little
                 good evidence venture shores of the cosmic ocean white dwarf gathered by gravity. With pretty stories
@@ -141,18 +141,41 @@
         </section>
 
         <!-- SEC4 FULL LENGHT IMG -->
-        <div class="w-full h-[400px] bg-[url(../images/sec4-landscape.avif)] bg-center bg-cover"></div>
+        <div class="w-full h-[400px] bg-[url(../images/sec4-iceland.jpg)] bg-center bg-cover"></div>
 
         <!-- SEC5  2 IMG GRID-->
-        <div class="flex flex-row flex-wrap justify-center mx-auto py-14 gap-8">
-            <img src="../images/sec5-1.jpg" alt="horse standing in a field infront of a golden sun"
-                class="mb-8 w-1/3 md:mb-0">
-            <img src="../images/sec5-2.jpg" alt="Swiss Aps with smoke emanating from the top." class="w-1/3">
-        </div>
+        <section class="flex flex-col justify-center items-center mx-auto px-10 mt-14 gap-8">
+
+            <div class="flex flex-col justify-center items-center gap-8 md:flex-row">
+                <img src="../images/sec5-1.jpg" alt="horse standing in a field infront of a golden sun" class="mb-8 w-full h-72 md:mb-0 md:w-[40%] md:h-full object-cover" />
+                <img src="../images/sec5-2.jpg" alt="Swiss Aps with smoke emanating from the top." class="mb-8 w-full h-72 md:mb-0 md:w-[40%] md:h-full object-cover"/>
+            </div>
+
+            <div class="">
+                <h2 class="text-2xl font-bold font-decor mx-auto md:text-6xl">Top 10 winning wildlife images.</h2>
+                
+                <p class="max-w-[75%] mx-auto">From which we spring courage of our questions encyclopaedia galactica brain is the seed of intelligence shores of the cosmic ocean birth. Flatland with pretty stories for which there's little good evidence a mote of dust suspended.</p>
+            </div>
+
+        </section>
+
+        <!-- sec6 4 photo grid -->
+        <section class="px-14 mt-20">
+
+            <h2 class="text-2xl font-bold font-decor max-w-[90%] mx-auto my-4 md:text-6xl">Images from #1 photographer: Geoffrey Laandgrab</h2>
+
+            <div class="flex flex-col md:flex-row gap-4 justify-center items-center">
+                <img src="./images/sec6-beach.jpg" alt="beach" class="w-full h-56 object-cover md:w-1/4"/>
+                <img src="../images/sec6-giraffes.jpg" alt="two giraffes" class="w-full h-56 object-cover md:w-1/4" />
+                <img src="../images/sec6-llamas.jpg" alt="two llamas" class="w-full h-56 object-cover md:w-1/4" />
+                <img src="../images/sec6-sweden.jpg" alt="a beautiful snowy landscape in Sweden" class="w-full h-56 object-cover md:w-1/4" />
+            </div>
+
+        </section>
 
     </main>
 
-    <script src="./src/index.js" />
+    <script src="index.js" />
 </body>
 
 </html>
